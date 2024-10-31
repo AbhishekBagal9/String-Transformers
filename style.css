@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    background-color:#a0aecd;
+}
+
+main{
+    max-width: 900px;
+    margin: 50px auto;
+
+}
+input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid black;
+}
+.output{
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: #6e6e6e;
+    position: relative;
+    text-align: left;
+    word-wrap: break-word;
+   
+
+}
+.output label{
+    font-size: 0.7rem;
+    position: absolute;
+    left: 16px;
+    top: -6px;
+    background-color: black;
+    color: white;
+    padding:2px ;
+}
